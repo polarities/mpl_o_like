@@ -47,6 +47,7 @@ def update(default_figsize_x_y):
         'axes.ymargin': 0,
         'axes.linewidth': 1.1,
         'axes.labelpad': 5.0,
+        'axes.formatter.useoffset': False,
 
         "xtick.labelsize": 17,
         "ytick.labelsize": 17,
@@ -59,4 +60,6 @@ def update(default_figsize_x_y):
         "figure.figsize": [12, 6],
 
         "legend.fontsize": 17,
+
+
     })
